@@ -1,4 +1,5 @@
-==LHTween==
+LHTween
+============
 
 This is a small tweening library I built for Corona to add some more transitions to the alread existing set of transitinos.
 
