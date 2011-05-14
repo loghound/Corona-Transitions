@@ -43,7 +43,7 @@ function printTransitions ()
 end
 
 
-
+-- start it off
 tran();
 
 
