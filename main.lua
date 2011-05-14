@@ -17,8 +17,6 @@ end
 -- Launch the transitions
 function tran() 
 	for k,tran in pairs(t.transitions) do
-	print ("k,v=",k,v);
-	
 	redSquare=redSquares[k];
 	redSquare.x = 30*k
 	redSquare.y = 60
