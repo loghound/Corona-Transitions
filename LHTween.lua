@@ -1,7 +1,7 @@
 module(..., package.seeall)
 
 --[[
-/**
+
  * Easing equation function for a bounce (exponentially decaying parabolic bounce) easing out: decelerating from zero velocity.
 
 ]]
@@ -34,7 +34,7 @@ function _easeOutBounce(t,b,c,d)
 end
 
 
---[[/**
+--[[
       * Easing equation function for a bounce (exponentially decaying parabolic bounce) easing in: accelerating from zero velocity.
       *
 ]]
@@ -53,7 +53,7 @@ end
 
 
 --[[
-/**
+
  * Easing equation function for a bounce (exponentially decaying parabolic bounce) easing in/out: acceleration until halfway, then deceleration.
  *
 ]]
@@ -71,7 +71,7 @@ return ret;
 end
 
 
---[[/**
+--[[
  * Easing equation function for a bounce (exponentially decaying parabolic bounce) easing out/in: deceleration until halfway, then acceleration.
  *
 ]]
@@ -107,7 +107,7 @@ function easeQuad(t,d,b,c)
 end;
 
 
---[[/**
+--[[
            * Easing equation function for a quadratic (t^2) easing out: decelerating to zero velocity.
            *
            *]]
@@ -135,7 +135,7 @@ function easeInCubic(t,d,b,c)
     
 end
 
---[[/**
+--[[
  * Easing equation function for a cubic (t^3) easing out: decelerating from zero velocity.
  *
 ]]
@@ -150,7 +150,7 @@ function easeOutCubic(t,d,b,c)
 end
 
 --[[
-/**
+
  * Easing equation function for a quartic (t^4) easing in: accelerating from zero velocity.
  *
 ]]
@@ -163,7 +163,7 @@ function easeInQuart(t,d,b,c)
      return ret;
 end
 
---[[/**
+--[[
  * Easing equation function for a quartic (t^4) easing out: decelerating from zero velocity.
  *
 ]]
@@ -178,7 +178,7 @@ function easeOutQuart(t,d,b,c)
 end
     
 --[[
-/**
+
  * Easing equation function for a quartic (t^4) easing in: accelerating from zero velocity.
  *
 ]]
@@ -191,7 +191,7 @@ function easeInQuint(t,d,b,c)
      return ret;
 end
 
---[[/**
+--[[
  * Easing equation function for a quartic (t^4) easing out: decelerating from zero velocity.
  *
 ]]
@@ -206,7 +206,7 @@ function easeOutQuint(t,d,b,c)
 end
 
 
---[[/**
+--[[
 		 * Easing equation function for a circular (sqrt(1-t^2)) easing in: accelerating from zero velocity.
 
 		]]
@@ -221,7 +221,7 @@ function easeInCirc(t,d,b,c)
 end
 
 
---[[/**
+--[[
  * Easing equation function for a circular (sqrt(1-t^2)) easing out: decelerating from zero velocity.
 ]]
 
@@ -234,7 +234,7 @@ function easeOutCirc(t,d,b,c)
 		    return ret;    
 end
 
---[[/**
+--[[
  * Easing equation function for a sinusoidal (sin(t)) easing in: accelerating from zero velocity.
 ]]
 function easeInSine(t,d,b,c)
@@ -246,7 +246,7 @@ function easeInSine(t,d,b,c)
     return ret;    
 end
 
---[[/**
+--[[
  * Easing equation function for a sinusoidal (sin(t)) easing in/out: acceleration until halfway, then deceleration.
 ]]
 function easeInOutSine(t,d,b,c)
@@ -259,7 +259,7 @@ function easeInOutSine(t,d,b,c)
 end
 
 
---[[/**
+--[[
  * Easing equation function for an exponential (2^t) easing in: accelerating from zero velocity.
 ]]
 
@@ -279,7 +279,7 @@ function easeInExpo(t,d,b,c)
     return ret;    
 end
 
---[[/**
+--[[
  * Easing equation function for an exponential (2^t) easing out: decelerating from zero velocity.
 ]]
 
@@ -295,7 +295,7 @@ end
 
 
 
---[[/**
+--[[
  * Easing equation function for a sinusoidal (sin(t)) easing out: decelerating from zero velocity.
 
  */
@@ -329,7 +329,7 @@ return ret;
 end
 
 
---[[/**
+--[[
  * Easing equation function for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in: accelerating from zero velocity.
 
 ]]
@@ -344,7 +344,7 @@ return ret;
 end
 
 
---[[/**
+--[[
  * Easing equation function for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out: decelerating from zero velocity.
 ]]
 
